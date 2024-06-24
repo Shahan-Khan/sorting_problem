@@ -17,16 +17,18 @@ This project demonstrates a Python implementation to sort large files that excee
 ## Usage
 
 ### Sorting a Large File:
-        - Adjust chunk_size in the merge_chunks function to balance memory usage and performance.
-        - Modify file_path and output_file_path variables to specify input and output file paths.
-            file_path = 'large_file.txt'
-            chunk_size = 10000  # Adjust based on available memory
-            chunk_files = divide_file(file_path, chunk_size)
-            merge_chunks(chunk_files, 'sorted_large_file.txt')
+- Adjust chunk_size in the merge_chunks function to balance memory usage and performance.
+- Modify file_path and output_file_path variables to specify input and output file paths.
+```bash
+file_path = 'large_file.txt'
+chunk_size = 10000  # Adjust based on available memory
+chunk_files = divide_file(file_path, chunk_size)
+merge_chunks(chunk_files, 'sorted_large_file.txt')
+```
 
 ## Example Code Explanation:
-    - divide_file(file_path, chunk_size): Divides large_file.txt into smaller sorted chunks.
-    - merge_chunks(chunk_files, output_file_path): Merges sorted chunks into sorted_large_file.txt.
+- `divide_file(file_path, chunk_size)`: Divides large_file.txt into smaller sorted chunks.
+- `merge_chunks(chunk_files, output_file_path)`: Merges sorted chunks into sorted_large_file.txt.
 
 ## Documentation
 
