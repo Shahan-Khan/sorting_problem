@@ -5,10 +5,10 @@
 This project demonstrates a Python implementation to sort large files that exceed available RAM using a merge sort approach with heap operations. It efficiently merges sorted chunks of a large file into a single sorted output file, minimizing memory usage and maximizing performance.
 
 ## Features
-    - Divides the large file into manageable chunks.
-    - Sorts each chunk independently using Python's built-in sorting capabilities.
-    - Merges sorted chunks using a heap data structure for efficient smallest element retrieval.
-    - Outputs a single sorted file without consuming excessive memory.
+- Divides the large file into manageable chunks.
+- Sorts each chunk independently using Python's built-in sorting capabilities.
+- Merges sorted chunks using a heap data structure for efficient smallest element retrieval.
+- Outputs a single sorted file without consuming excessive memory.
 
 ## Requirements
     - Python 3.x
